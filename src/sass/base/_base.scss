@@ -1,0 +1,19 @@
+html{
+	font-size: 10/16*100%;
+	/*font-feature-settings: 'palt';*/
+	line-height: 10/15*100%;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, "YuGothic","Hiragino Kaku Gothic Pro", "Meiryo", sans-serif;
+}
+body{
+	position: relative;
+	width: 100%;
+	line-height: 1.0;
+}
+a{
+	text-decoration: none;
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}

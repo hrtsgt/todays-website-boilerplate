@@ -1,0 +1,11 @@
+block variables
+doctype html
+html(lang=site.lang)
+	head(prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# " + pageOgpType + ": http://ogp.me/ns/" + pageOgpType + "# fb: http://www.facebook.com/2008/fbml")
+		include /_includes/_meta
+		block css
+			link(rel="stylesheet" href="/assets/css/main.css")
+	body
+		block content
+		block js
+			script(src="/assets/js/bundle.js")

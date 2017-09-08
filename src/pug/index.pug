@@ -1,0 +1,26 @@
+extends /_extends/_layout
+
+append variables
+	//- Required
+	- var pageTitle = "";
+	- var pageDescription = site.description;
+	- var pageKeywords = site.keywords;
+	//- optional
+	- var pageOgpTitle = "";
+	- var pageOgpImage = site.ogpImage;
+	- var pageOgpType = site.ogpType;
+	- var pageUrl = pagePath;
+
+block content
+	h1 見出しです1
+	#container.hoge
+			p pug pug
+	table
+		thead
+			tr
+				th ----
+				th *****
+		tbody
+			tr
+				th hoge
+				td bar

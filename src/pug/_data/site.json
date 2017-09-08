@@ -1,0 +1,9 @@
+{
+	"lang": "ja",
+	"name": "サイトの名前",
+	"description": "サイトの概要",
+	"keywords": "kw1, kw2",
+	"rootUrl": "http://example.com/",
+	"ogpImage": "http://example.com/hoge.png",
+	"ogpType": "website"
+}
