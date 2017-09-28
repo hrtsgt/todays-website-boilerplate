@@ -3,7 +3,7 @@
 		"module": "commonjs",
 		"noImplicitAny": false,
 		"removeComments": true,
-		"target": "ES6",
+		"target": "ES5",
 		"sourceMap": true
 	},
 	exclude": ["node_modules"]

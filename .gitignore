@@ -5,3 +5,8 @@ npm-debug.log
 *.sublime-project
 *.sublime-workspace
 *sftp-config.json
+*.mp4
+*.webm
+*.ogg
+*.ogv
+*.ogm

@@ -58,6 +58,22 @@
 | PW | password |
 | host | mysql.example.com |
 
-#### 補足
+-----
 
-- etc.
+#### ブラウザチェック
+
+- Windows8.1
+	- IE11
+	- Chrome最新
+	- Firefox最新
+- macOS10.12
+	- Chrome最新
+	- Safari最新
+	- Firefox最新
+- iOS10.2
+	- Safari最新
+	- Chrome最新
+- Android7.1
+	- Chrome最新
+
+#### 補足
