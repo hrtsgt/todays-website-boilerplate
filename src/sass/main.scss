@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@import "core/**/*";
+@import "core/**/*.scss";
 
 @import "../../node_modules/normalize.css/normalize";
 @import "../../node_modules/ress/ress";
@@ -16,7 +16,7 @@
 
 /**** TABLET OR SP **************/
 @media (max-width:$W_PC - 1px){
-	/*@import "base/main_sp";*/
+	@import "base/main_sp";
 }
 
 /**** TOUCH OR **************/
