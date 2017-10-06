@@ -20,10 +20,10 @@ cleancss = require 'gulp-clean-css'
 autoprefixer = require 'gulp-autoprefixer'
 # js
 webpack = require 'webpack-stream'
-webpackConfig = require './webpack.config.js'
+webpackConfig = require './webpack.config.coffee'
 
 # directories
-dir = 
+dir =
 	src:
 		html: './src/pug/'
 		json: './src/pug/_data/'
@@ -38,7 +38,7 @@ gulp.task 'clean', ->
 	del ["#{dir.dist.css}**", "#{dir.dist.js}**"]
 
 gulp.task 'html', ->
-	locals = 
+	locals =
 		site: JSON.parse fs.readFileSync("#{dir.src.json}site.json")
 
 	gulp.src ["#{dir.src.html}**/*.pug", "!#{dir.src.html}**/_*.pug"]
